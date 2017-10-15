@@ -1,0 +1,113 @@
+
+#img1{
+    display: block;
+    margin:auto;
+    margin-top: -100px;
+    margin-left:-50px;
+
+}
+
+#img2{
+    display: block;
+    background-repeat: repeat-x;
+    background-image:url(../img/wVE.jpg);
+    margin-top: -25px;
+}
+
+#container{
+    border:2px solid red;
+    width: initial;
+    height:900px;
+    display: block;
+    border-right: 2px solid #e24926;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+
+h2{
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    background: white;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    margin: 0 150px 0 150px;
+    }
+
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+li{
+    float: right;
+    margin-left: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #ffefd9;
+    border-radius: 25px;
+    border: 2px solid #e24926;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
+    background: #ffefd9;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+
+a{
+        display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+ button {
+    background-color: #ffefd9;
+    color: black;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 150%;
+    font-family: "Times New Roman", Times, bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+img {
+    width: 60%;
+    padding-bottom: 2px;
+}

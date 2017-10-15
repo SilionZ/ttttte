@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Bingo!Idea</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/search-box.css">
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+	<!-- <script type="text/javascript" src="js/popup.js"></script> -->
+</head>
+
+<body>
+
+<div id="menu">
+<div class="menuset">
+<ul>
+<li><a href="contact.html">Contact </a></li>
+<li><a href="info.html">Info</a></li>
+<li><a href="Login.html">Login</a></li>
+<button class="click2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+</div>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container">
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me
+      <div class="clearfix">
+        <button class="click2" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button class="click2" type="submit" class="signupbtn"><a href="Login.html">Sign Up</a></button>
+      </div>
+    </div>
+  </form>
+</div>
+</ul>
+</div>
+
+<div id="img1"><img src="img/logo.png" style="width:344px;height:463px;"></div>
+<div id="img2"><img src="img/wVE.JPG" style="width:880px;height:73px;"></div>
+
+<div class="search-box" style="margin-left: 10px;">
+	<input type="text" class="search-input" id="keywords" style="width: 200%;" placeholder="Keywords of your Idea">
+	<button class="search-button"><a href="unlogsearch.html"> Search&#128269 </a> </button>
+	</div>
+</body>
+
+
+</html>

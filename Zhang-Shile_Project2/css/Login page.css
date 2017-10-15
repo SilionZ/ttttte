@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+}
+
+form {
+	text-align: center;
+    background-color: white;
+    margin: 0 150px 0 150px;
+    }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 120%;
+    margin-left: 
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+li{
+    float: right;
+    margin-left: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #ffefd9;
+    border-radius: 25px;
+    border: 2px solid #e24926;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    background: #ffefd9;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.meneset{
+    background-color:red;
+    padding: 20px;
+
+}
+
+
+a{
+        display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+ button {
+    background-color: #ffefd9;
+    color: black;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 150%;
+    font-family: "Times New Roman", Times, bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto; 
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.cancell{
+    font-size: 150%;
+    font-family: "Times New Roman", Times, bold;
+}
+
+.reb{
+    padding-top: 10px;
+    font-size: 100%;
+}
+
+
+.imgcontainer {
+    padding-left: 85px;
+}
+
+img {
+    width: 60%;
+    padding:auto;
+    padding-bottom: 2px;
+    padding-right:90px;
+}
+
+.container {
+        font-size: 150%;
+       position: auto
+}
+
+.subcan{
+    font-size: 70%
+}
+
+span.psw {
+	margin-top: 20px;
+    float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Bingo!Idea</title>
+  <link rel="stylesheet" type="text/css" href="css/drag.css">
+<script src="js/konvamin.js"></script>
+</head>
+
+
+<header>
+
+<div id="menu">
+<div class="menuset">
+<ul>
+<li><a href="contact.html">Contact </a></li>
+<li><a href="info.html">Info</a></li>
+<li><a href="portfolio.html">It's Me</a></li>
+</div>
+
+</header>
+
+<body>
+
+<div id="img1"><a href="index.html"><img src="img/logo.png" style="width:172px;height:232px;"></a></div>
+<div id="img2"><img src="img/WVE.JPG" style="width:880px;height:73px;"></div>
+
+<div id="container">
+
+<script>
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+
+    
+
+      function drawImage(targetImage, xPosition, yPosition) {
+        var stage = new Konva.Stage({
+            container: 'container',
+            width: width,
+            height: height
+        });
+        
+        var layer = new Konva.Layer();
+
+        // darth vader
+        var targetImage = new Konva.Image({
+            image: targetImage,
+            // x: stage.getWidth() / 2 - 200 / 2,
+            // y: stage.getHeight() / 2 - 137 / 2,
+            x: xPosition,
+            y: yPosition,
+            width: 200,
+            height: 137,
+            draggable: true
+        });
+        // add cursor styling
+        darthVaderImg.on('mouseover', function() {
+            document.body.style.cursor = 'pointer';
+        });
+        darthVaderImg.on('mouseout', function() {
+            document.body.style.cursor = 'default';
+        });
+        layer.add(darthVaderImg);
+        stage.add(layer);
+    }
+
+    var imageObj = new Image();
+        imageObj.src = 'img/deal.svg';
+    var imageObj2 = new Image();
+        imageObj2.src = 'img/cloud.svg';
+    imageObj.onload = function() {
+        drawImage(imageObj, 300, 300);
+    };
+    imageObj2.onload = function() {
+        drawImage(imageObj2, 400, 400);
+    };
+    
+    
+</script>
+
+
+
+<!-- <canvas id="leftbox" width="800" height="800">      
+         <p>Your browserdoes not support the canvas element.</p>      
+</canvas>    
+
+</div> -->
+</body>
+
+</html>

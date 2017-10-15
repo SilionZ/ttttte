@@ -1,0 +1,170 @@
+* {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 4px;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    margin: 0 150px 0 150px;
+    }
+
+header{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 200%;
+}
+
+.meneset{
+    background-color:red;
+}
+
+#img1{
+ 	text-align: center;
+    display: block;
+    margin:auto;
+
+}
+
+#img2{
+    display: block;
+    background-repeat: repeat-x;
+    background-image:url(../img/wVE.jpg);
+    padding-bottom: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li{
+    float: right;
+    margin-left: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #ffefd9;
+    border-radius: 25px;
+    border: 2px solid #e24926;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+li a {
+    padding:15px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+   /* background-color: #ffc0b1;
+    /*border: 2px solid black;
+    width: 100px;*/
+    border-radius: 25px;
+}
+
+
+a{
+        display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.click2 {
+    font-size: 100%;
+    display: inline-block;
+    float: right;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+    cursor: pointer;
+    color: #e24926;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #e24926;
+    border-radius: 25px;
+    padding: 17px 25px;
+    margin-left: 20px;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 160px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(255,239,217,0.6); /* Black w/ opacity */
+    padding:150px;
+    text-align: center;
+    margin: 0 150px 0 150px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
